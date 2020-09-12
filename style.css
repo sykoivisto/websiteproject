@@ -1,0 +1,37 @@
+html, body{
+    height: 100%;
+}
+.mainwrapper{
+    min-height: 100%;
+    margin-bottom: -3.5rem;
+    padding-bottom: 4.5rem;
+}
+.bodycolor{
+    background-color: #131313;
+}
+.navbarcolor{
+    background-color: #131313;
+}
+.jumbo{
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.jumbotext{
+    display: inline-block;
+}
+hr{
+    background-color: rgb(255, 115, 72);
+}
+.homeimage{
+    width:100%;
+}
+.customlinks, .customlinks:hover{
+    color:rgb(255, 115, 72);
+}
+.customlinks:active{
+    color:rgb(163, 72, 44);
+}
+.footercolor{
+    background-color:rgb(255, 163, 24);
+}
