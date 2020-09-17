@@ -11,7 +11,30 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="simple-lightbox.css?v2.2.1" />
   <title>2 Arrows Construction</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .galcontainer .gallery a img {
+      float: left;
+      width: 33%;
+      height: auto;
+      -webkit-transition: -webkit-transform .15s ease;
+      -moz-transition: -moz-transform .15s ease;
+      -o-transition: -o-transform .15s ease;
+      -ms-transition: -ms-transform .15s ease;
+      transition: transform .15s ease;
+      position: relative;
+      padding: 2%;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
 </head>
 
 <body class="bodycolor">
@@ -29,8 +52,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link active" href="#">About Us <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="album.html">Photo Album</a>
+            <a class="nav-item nav-link" href="about.html">About Us</a>
+            <a class="nav-item nav-link active" href="#">Photo Album <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="material-handling.html">Material Handling</a>
             <a class="nav-item nav-link" href="details.html">Details</a>
             <a class="nav-item nav-link" href="#">Employment</a>
@@ -42,47 +65,20 @@
     <div class="text-center text-white jumbo">
       <h3 class="py-3">Engineering, Excavation, & Commercial Construction</h3>
     </div>
-    <div class="container-sm text-white">
-      <div class="row">
-        <div class="col-md-8">
-          <h2 class="my-3">About 2 Arrows Construction, LLC</h2>
-          <p>When schedules matter, we offer a competitive advantage and provide outstanding support to our field
-            efforts.</p>
-          <p>In the field, we maintain a steady workforce of skilled craftsmen and project managers.</p>
-          <p>You will find that our craftsmen take great pride in both the quality of their work and the visual beauty
-            of their finished product.</p>
-          <p>Our work started in utility/sewer/water/gas and evolved into a Full Service General Contractor &
-            Construction Management Company.</p>
-          <p>We have completed projects in various industries from wastewater treatment to manufacturing and fabrication
-            plants, food processing, automotive & railroad industries, steel mills, float glass plants and institutional
-            work.</p>
-          <p>Today we are a full service Commercial Construction Company successfully managing projects in the United
-            States.</p>
-          <p>Our company is a multi-craft employer and provides a wide variety of services, ranging from single source
-            turnkey installations to large specialty subcontracting.</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="mt-3">Client list</h5>
-          <hr>
-          <ul>
-            <li>Columbia Gas</li>
-            <li>Copperweld Steel</li>
-            <li>Cuyahoga Steel & Wire</li>
-            <li>Dean Dairy</li>
-            <li>Delphi</li>
-            <li>Drafto Corporation</li>
-            <li>Dupont</li>
-            <li>East Manufacturing</li>
-            <li>East Rail Corp</li>
-            <li>Foseco</li>
-            <li>General American Tank Car</li>
-            <li>General Mills</li>
-            <li>General Motors Corporation - Lordstown</li>
-            <li>Great Lakes Energy</li>
-            <li>Greenville Metals</li>
-            <li>Hines Steel</li>
-          </ul>
-          <p class="text-right"><a class="customlinks" href="#">Read more</a></p>
+    <div class="container-sm">
+      <div class="galcontainer">
+        <div class="gallery">
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
+          <div class="clear"></div>
         </div>
       </div>
     </div>
@@ -93,6 +89,13 @@
     </div>
   </div>
   <!-- Optional JavaScript -->
+
+  <script src="simple-lightbox.js?v2.2.1"></script>
+  <script>
+    (function () {
+      var $gallery = new SimpleLightbox('.gallery a', {});
+    })();
+  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
