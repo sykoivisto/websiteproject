@@ -5,7 +5,7 @@
 	border:1px solid #ccc;
 	margin:0 auto;
 	text-align:left;
-	width:640px;
+	max-width:640px;
 }
 
 #top
@@ -333,6 +333,7 @@ select.select
 	border-left:1px solid #c3c3c3;
 	border-right:1px solid #c3c3c3;
 	border-top:1px solid #7c7c7c;
+	cursor: pointer;
 }
 
 
@@ -357,6 +358,7 @@ input.radio
 	line-height:1.4em;
 	margin:6px 0 0 3px;
 	width:13px;
+	cursor: pointer;
 }
 
 label.choice
@@ -368,6 +370,7 @@ label.choice
 	margin:-1.55em 0 0 25px;
 	padding:4px 0 5px;
 	width:90%;
+	cursor: pointer;
 }
 
 select.select[class]

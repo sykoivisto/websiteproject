@@ -11,30 +11,7 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="simple-lightbox.css?v2.2.1" />
   <title>2 Arrows Construction</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    .galcontainer .gallery a img {
-      float: left;
-      width: 33%;
-      height: auto;
-      -webkit-transition: -webkit-transform .15s ease;
-      -moz-transition: -moz-transform .15s ease;
-      -o-transition: -o-transform .15s ease;
-      -ms-transition: -ms-transform .15s ease;
-      transition: transform .15s ease;
-      position: relative;
-      padding: 2%;
-    }
-
-    .clear {
-      clear: both;
-    }
-  </style>
 </head>
 
 <body class="bodycolor">
@@ -53,7 +30,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.html">Home</a>
             <a class="nav-item nav-link" href="about.html">About Us</a>
-            <a class="nav-item nav-link active" href="#">Photo Album <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="album.html">Photo Album</a>
             <a class="nav-item nav-link" href="material-handling.html">Material Handling</a>
             <a class="nav-item nav-link" href="details.html">Details</a>
             <a class="nav-item nav-link" href="employment.html">Employment</a>
@@ -65,22 +42,69 @@
     <div class="text-center text-white jumbo">
       <h3 class="py-3">Engineering, Excavation, & Commercial Construction</h3>
     </div>
-    <div class="container-sm">
-      <div class="galcontainer">
-        <div class="gallery">
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <a href="2000x1500.png"><img src="https://via.placeholder.com/300x300" alt="" /></a>
-          <div class="clear"></div>
-        </div>
-      </div>
+    <div class="container-sm text-white">
+          <h2 class="my-3">Client List</h2>
+          <ul>
+            <li>Allen-Bradley</li>
+            <li>Allen-Bradley</li>
+            <li>Altria</li>
+            <li>Antenucci Inc.</li>
+            <li>Badger School System</li>
+            <li>Brittan Farms</li>
+            <li>Bryant China</li>
+            <li>Carnegie Mellon University</li>
+            <li>Chevron Corporation</li>
+            <li>Columbia Gas</li>
+            <li>Copperweld Steel</li>
+            <li>Cyahoga Steel & Wire</li>
+            <li>Dean Dairy</li>
+            <li>Delphi</li>
+            <li>Drafto Corporation</li>
+            <li>Dupont</li>
+            <li>East Manufacturing</li>
+            <li>East Rail Corp</li>
+            <li>Foseco</li>
+            <li>General American Tank Car</li>
+            <li>General Mills</li>
+            <li>General Motors Corporation - Lordstown</li>
+            <li>Great Lakes Energy</li>
+            <li>Greenville Metals </li> 
+            <li>Hines Steel</li>
+            <li>Horton Electric</li>
+            <li>Hytek Material Handling</li>
+            <li>J&L Steel</li>
+            <li>Jaite Packaging</li>
+            <li>James Drilling</li>
+            <li>Kraft Foods</li>
+            <li>L.B. Foster</li>
+            <li>Lee Manufacturing</li>
+            <li>Lukjan Metal Industries</li>
+            <li>Maplewood District School</li>
+            <li>Mobil</li>
+            <li>Molded Fiberglass</li>
+            <li>Moreland Machinery</li>
+            <li>Newton Falls City</li>
+            <li>North American Pipe Corporation</li>
+            <li>North Side Hospital</li>
+            <li>Ohio Edison</li>
+            <li>Parker Hannifin Corporation</li>
+            <li>PPG Industries</li>
+            <li>R.G.T. Plastics</li>
+            <li>RMI Titanium</li>
+            <li>Schwartz Farms</li>
+            <li>Sharon Steel</li>
+            <li>St. Elizabeths Hospital</li>
+            <li>St. Vladimir's Camp & Retreat Center</li>
+            <li>Target Industries</li>
+            <li>Thermolink</li>
+            <li>Thomas Strip Steel</li>
+            <li>Timet Titanium</li>
+            <li>Trumbull Memorial Hospital</li>
+            <li>Vulkor Inc.</li>
+            <li>WCI Steel</li>
+            <li>Werner Ladder</li>
+            <li>Worthington Industries</li>
+          </ul>
     </div>
   </div>
   <div class="footercolor">
@@ -89,13 +113,6 @@
     </div>
   </div>
   <!-- Optional JavaScript -->
-
-  <script src="simple-lightbox.js?v2.2.1"></script>
-  <script>
-    (function () {
-      var $gallery = new SimpleLightbox('.gallery a', {});
-    })();
-  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
